@@ -8,12 +8,13 @@ app = FastAPI(title="SmartSeason API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        settings.FRONTEND_URL,
-        settings.FRONTEND_URL.rstrip("/"),
-        settings.FRONTEND_URL.rstrip("/") + "/",
+        settings.FRONTEND_URL.strip(),
+        settings.FRONTEND_URL.strip().rstrip("/"),
+        settings.FRONTEND_URL.strip().rstrip("/") + "/",
         "http://localhost:5173",
         "http://localhost:5173/",
     ],
+    allow_origin_regex=r"https?://.*\.onrender\.com",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
