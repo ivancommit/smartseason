@@ -1,4 +1,4 @@
-# 🌿 SmartSeason
+# SmartSeason
 
 **SmartSeason** is a modern field monitoring system designed to track crop progress across multiple agricultural fields. Built for efficiency, it empowers agricultural coordinators and field agents to monitor growth stages, manage risks, and maintain detailed field history.
 
@@ -10,10 +10,6 @@
 
 ---
 
-## 🚀 Live Demo
-
-- **Frontend:** [smartseason.vercel.app](https://smartseason.vercel.app)
-- **API Documentation:** [smartseason-api.railway.app/docs](https://smartseason-api.railway.app/docs)
 
 ---
 
