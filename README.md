@@ -8,8 +8,13 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
+
 ---
 
+## 🚀 Live Demo
+
+- **Backend API:** [smartseason-cn2j.onrender.com](https://smartseason-cn2j.onrender.com)
+- **API Documentation:** [smartseason-cn2j.onrender.com/docs](https://smartseason-cn2j.onrender.com/docs)
 
 ---
 
