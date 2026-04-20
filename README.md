@@ -13,6 +13,7 @@
 
 ## 🚀 Live Demo
 
+- **Frontend App:** [smartseason-1-gll9.onrender.com](https://smartseason-1-gll9.onrender.com)
 - **Backend API:** [smartseason-cn2j.onrender.com](https://smartseason-cn2j.onrender.com)
 - **API Documentation:** [smartseason-cn2j.onrender.com/docs](https://smartseason-cn2j.onrender.com/docs)
 
