@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom'
 import { Menu, X, Leaf } from 'lucide-react'
-import { cn } from '../../lib/utils'
+import { cn } from '@/lib/utils'
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from '../ui/sidebar'
+} from '@/components/ui/sidebar'
 import { Button } from '../ui/button'
 
 export function AppTitle() {
