@@ -14,8 +14,10 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    "ignoreDeprecations": "5.0",
 
     /* Alias */
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
@@ -27,5 +29,6 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/test-utils"]
 }
