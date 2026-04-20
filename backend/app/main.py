@@ -7,10 +7,17 @@ app = FastAPI(title="SmartSeason API")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.FRONTEND_URL, "http://localhost:5173"],
+    allow_origins=[
+        settings.FRONTEND_URL,
+        settings.FRONTEND_URL.rstrip("/"),
+        settings.FRONTEND_URL.rstrip("/") + "/",
+        "http://localhost:5173",
+        "http://localhost:5173/",
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    max_age=600,
 )
 
 app.include_router(auth.router, prefix="/api/v1/auth", tags=["auth"])
