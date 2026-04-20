@@ -1,0 +1,2 @@
+# SmartSeason
+Agricultural Tracking Platform
